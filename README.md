@@ -20,7 +20,7 @@
 * getMerchant(payment_gateway $payment_gateway){}
   * Return operator instance of the payment gateway
 
-* getPaymentGws(operator $operator){}
+* getPaymentGws(operator $operator, string $pay_for){}
   * If operator has many payment gateways return the payment gateways.
   * If group admin of the operator has many payment gateways return the payment gateways.
   * If Super Admin of the operator has many payment gateways return the payment gateways.
